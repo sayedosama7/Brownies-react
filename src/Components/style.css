@@ -1,0 +1,16 @@
+.special {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+}
+
+.special img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    display: none;
+}
