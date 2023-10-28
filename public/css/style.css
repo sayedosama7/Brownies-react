@@ -247,6 +247,10 @@ a {
         margin: 10px auto;
         display: block;
     }
+
+    .menu .box {
+        margin: 0 !important;
+    }
 }
 
 /* End menu */
@@ -336,10 +340,11 @@ footer {
 }
 
 /* End all-products  */
+/* start cart */
 .table {
     background-color: #fbc8c84f;
     direction: ltr;
-
+    
 }
 
 .cart-title {
@@ -361,23 +366,51 @@ footer {
         font-size: 13px;
         padding: 0px 10px;
     }
-
+    
     .cart-btn:nth-of-type(1) {
         font-size: 9px;
         padding: 7px 10px;
     }
-
+    
     .table {
         font-size: 10px;
     }
-
+    
     td {
         padding: 5px !important;
     }
-
-    .sayed {
+    
+    .main {
         width: fit-content !important;
     }
-
-
+    
 }
+
+/* End cart */
+
+/* start register */
+.register form input:focus{
+    border: 1px solid var(--bg-color) !important;
+    box-shadow: none;
+}
+.register form input{
+    border: 1px solid var(--bg-color) !important;
+    color:#af1919 !important;
+}
+@media(max-width:768px){
+    .register{
+        padding-top: 0 !important;
+    }
+    .register form {
+        width: 100% !important;
+    }
+}
+/* End register */
+
+
+
+
+
+
+
+

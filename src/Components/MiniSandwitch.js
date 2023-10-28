@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 export class MiniSandwitch extends Component {
     render() {
@@ -15,7 +15,7 @@ export class MiniSandwitch extends Component {
                         <div className="col-md-6 mini-caption">
                             <h2 className='text-brown fw-bold'>Mini Sandwiches</h2>
                             <p>The most delicious mini sandwiches baked with expertise, taste and quality </p>
-                            <button className='btn btn-danger'>تسوق الآن</button>
+                            <NavLink to='/menu'><button className='btn btn-danger'>تسوق الآن</button></NavLink>
                         </div>
                     </div>
                 </div>

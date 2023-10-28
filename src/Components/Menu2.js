@@ -1,11 +1,16 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import NavBar from './NavBar'
+import Footer from './Footer'
+import { CartProvider } from 'react-use-cart'
 
 export class Menu extends Component {
     render() {
         return (
-            <div>
-                <h2 className="title-center">الأقسام</h2>
+            <CartProvider>
+                <NavBar/>
+                <div className='pt-5'></div>
+                <h2 className="title-center pt-4">الأقسام</h2>
                 <div className="d-flex justify-content-center menu">
                     <div className="d-flex flex-column  overflow-hidden ml-3 box">
                         <Link to="/gateax">
@@ -29,7 +34,9 @@ export class Menu extends Component {
                         </Link>
                     </div>
                 </div>
-            </div>
+                <Footer/>
+            </CartProvider>
+
         )
     }
 }

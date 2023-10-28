@@ -1,100 +1,74 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom';
-import { Card, CardBody, CardSubtitle, CardTitle } from 'reactstrap';
-export class MostSelling extends Component {
-    render() {
-        return (
-            <div>
-                <div class="container most">
-                    <div class="row">
-                        <h2 className="title-center">الأكثر مبيعا</h2>
+import React from 'react'
+import { useCart } from 'react-use-cart';
+import { Card, CardBody, CardSubtitle, CardTitle, Col, Container, Row } from 'reactstrap';
+import { NavLink } from 'react-router-dom';
 
-                        <div class="col-md-3 mb-4 text-center">
+function Page() {
+    const { addItem } = useCart();
+    const products = [
+        {
+            "id": 1,
+            "name": "فادج",
+            "image": "images/products/gateax/فادج.png",
+            "price": "40"
+        },
+        {
+            "id": 2,
+            "name": "لوز",
+            "image": "images/products/yamesh/لوز.png",
+            "price": "60 "
+        },
+        {
+            "id": 3,
+            "name": "باتون ساليه",
+            "image": "images/products/bakery/باتون-سالية-2.png",
+            "price": "15"
+        },
+        {
+            "id": 4,
+            "name": "بسيمة بندق",
+            "image": "images/products/elmoled/بسيمه-بندق.png",
+            "price": 40
+        }
+    ];
+
+    return (
+        <div>
+            <Container className='text-center'>
+                <Row>
+                    <h2 className='title-center'>الأكثر مبيعا</h2>
+                    {products.map((item) => (
+                        <Col md='3'>
                             <Card>
-                                <img class="img-fluid" alt="Sample" src="images/most/most-1.png" />
+                                <img class="img-fluid" alt="Sample" src={item.image} />
                                 <CardBody>
                                     <CardTitle tag="h5">
-                                        باتون ساليه سمسم
+                                        {item.name}
                                     </CardTitle>
                                     <CardSubtitle className="my-3 text-muted" tag="h6">
-                                        160.00 ج.م.
+                                        {item.price} ج.م.
                                     </CardSubtitle>
                                     <hr />
-                                    <Link>
-                                        <button className='btn btn-danger btn-block'>
-                                            add to cart
-                                        </button>
-                                    </Link>
+
+                                    <button onClick={() => addItem(item)} className='btn btn-danger btn-block'>شراء</button>
+
                                 </CardBody>
                             </Card>
-                        </div>
+                        </Col>
+                    ))}
+                </Row>
+            </Container>
 
-                        <div class="col-md-3 mb-4 text-center">
-                            <Card>
-                                <img class="img-fluid" alt="Sample" src="images/most/most-2.png" />
-                                <CardBody>
-                                    <CardTitle tag="h5">
-                                        بسيمة بندق
-                                    </CardTitle>
-                                    <CardSubtitle className="my-3 text-muted" tag="h6">
-                                        200.00 ج.م.
-                                    </CardSubtitle>
-                                    <hr />
-                                    <Link>
-                                        <button className='btn btn-danger btn-block'>
-                                            add to cart
-                                        </button>
-                                    </Link>
-                                </CardBody>
-                            </Card>
-                        </div>
-
-                        <div class="col-md-3 mb-4 text-center">
-                            <Card>
-                                <img class="img-fluid" alt="Sample" src="images/most/most-3.png" />
-                                <CardBody>
-                                    <CardTitle tag="h5">
-                                        زبيب
-                                    </CardTitle>
-                                    <CardSubtitle className="my-3 text-muted" tag="h6">
-                                        150.00 ج.م.
-                                    </CardSubtitle>
-                                    <hr />
-                                    <Link>
-                                        <button className='btn btn-danger btn-block'>
-                                            add to cart
-                                        </button>
-                                    </Link>
-                                </CardBody>
-                            </Card>
-                        </div>
-
-                        <div class="col-md-3 mb-4 text-center">
-                            <Card>
-                                <img class="img-fluid" alt="Sample" src="images/most/most-4.png" />
-                                <CardBody>
-                                    <CardTitle tag="h5">
-                                        فادج كيك
-                                    </CardTitle>
-                                    <CardSubtitle className="my-3 text-muted" tag="h6">
-                                        100.00 ج.م.
-                                    </CardSubtitle>
-                                    <hr />
-                                    <Link>
-                                        <button className='btn btn-danger btn-block'>
-                                            add to cart
-                                        </button>
-                                    </Link>
-                                </CardBody>
-                            </Card>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        )
-    }
+            <NavLink to='/menu' className=' d-block text-center mt-4 text-brown'>للمزيد اضغط هنا</NavLink>
+        </div>
+    );
 }
 
+function MostSelling() {
+    return (
+        <div>
+            <Page />
+        </div>
+    )
+}
 export default MostSelling

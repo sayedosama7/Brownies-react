@@ -200,7 +200,7 @@ function Page() {
                     {item.price} ج.م.
                   </CardSubtitle>
 
-                  <button onClick={() => addItem(item)} className='btn px-5 mt-2'>buy</button>
+                  <button onClick={() => addItem(item)} className='btn px-5 mt-2'>شراء</button>
 
                 </CardBody>
 

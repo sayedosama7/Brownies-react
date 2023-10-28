@@ -11,7 +11,12 @@ function Cart() {
   const { cartTotal, emptyCart, isEmpty, totalUniqueItems, items, updateItemQuantity, removeItem } = useCart();
 
   if (isEmpty) {
-    return <h2 className="text-center">Your cart is empty</h2>;
+    return <h2 className="text-center mt-5">سلة الشراء فارغة
+      <NavLink className='btn btn-danger m-auto d-block main w-25 mt-5 mt-2' to='/'>
+        الرجوع للقائمة الرئيسية
+      </NavLink>
+    </h2>
+      ;
   }
 
   return (
@@ -80,7 +85,7 @@ function Cart() {
           </Col>
         </Row>
       </Container>
-      <NavLink className='btn btn-danger m-auto d-block sayed w-25 mb-5 mt-2' to='/'>القائمة الرئيسية</NavLink>
+      <NavLink className='btn btn-danger m-auto d-block main w-25 mb-5 mt-2' to='/'>القائمة الرئيسية</NavLink>
 
     </div>
   );

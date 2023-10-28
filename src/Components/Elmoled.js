@@ -1,82 +1,3 @@
-// import React, { Component } from 'react'
-// import NavBar from './NavBar'
-// import Footer from './Footer'
-// import axios from 'axios'
-// import { Card, CardBody, CardSubtitle, CardTitle, Col, Container, Row } from 'reactstrap'
-// import { Link } from 'react-router-dom'
-// import ScrollToTop from 'react-scroll-to-top'
-
-// export class Elmoled extends Component {
-//   state = {
-//     elmoled: []
-//   }
-//   componentDidMount() {
-//     axios.get('elmoled.json')
-//       .then((result) => {
-//         this.setState(
-//           {
-//             elmoled: result.data
-//           }
-//         )
-//       })
-//   }
-//   render() {
-//     return (
-//       <div>
-//         <NavBar />
-//         <div className='pt-5'>
-
-//         </div>
-
-//         <Container className='pt-5 all-products'>
-//           <Row>
-//             <h2 className='title-center'>قسم حلاوة المولد</h2>
-
-//             {this.state.elmoled.map((item) => (
-
-//               <Col md='4' className='text-center mb-4'>
-
-//                 <Card className='box'>
-//                   <div className='images'>
-//                     <img alt="Sample" src={item.image} />
-//                   </div>
-//                   <CardBody>
-
-//                     <CardTitle className='text-brown fw-bold' tag="h5">
-//                       {item.name}
-//                     </CardTitle>
-
-//                     <CardSubtitle className="my-2 text-muted" tag="h6">
-//                       {item.price}
-//                     </CardSubtitle>
-
-//                     <Link to="/cart"><button className='btn px-5 mt-2'>buy</button></Link>
-
-//                   </CardBody>
-
-//                 </Card>
-//               </Col>
-
-//             ))}
-//           </Row>
-//         </Container>
-
-//         <Footer />
-//         <ScrollToTop
-//           smooth
-//           color='#663a2a'
-//           style={{ backgroundColor: '#fbc8c8', width: '60px' }} />
-//       </div>
-//     )
-//   }
-// }
-
-// export default Elmoled
-
-
-
-
-
 /* eslint-disable jsx-a11y/alt-text */
 import { CartProvider, useCart } from "react-use-cart";
 import { Card, CardBody, CardSubtitle, CardTitle, Col, Container, Row } from "reactstrap";
@@ -238,7 +159,7 @@ function Page() {
                     {item.price} ج.م.
                   </CardSubtitle>
 
-                  <button onClick={() => addItem(item)} className='btn px-5 mt-2'>buy</button>
+                  <button onClick={() => addItem(item)} className='btn px-5 mt-2'>شراء</button>
 
                 </CardBody>
 

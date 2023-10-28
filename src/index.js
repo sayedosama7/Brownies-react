@@ -11,6 +11,9 @@ import Search from "./Components/Search";
 import User from "./Components/User";
 import CartPage from "./Components/CartPage";
 import Register from "./Components/Register";
+import Menu2 from "./Components/Menu2";
+import ContineuShiping from "./Components/ContineuShiping";
+import Thanks from "./Components/Thanks";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -51,6 +54,18 @@ const router = createBrowserRouter([
   {
     path: "register",
     element: <Register />
+  },
+  {
+    path: "menu",
+    element: <Menu2 />
+  },
+  {
+    path: "continue-shiping",
+    element: <ContineuShiping />
+  },
+  {
+    path: "thanks",
+    element: <Thanks />
   },
 
 ]);
