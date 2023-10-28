@@ -9,7 +9,8 @@ import Yamesh from "./Components/Yamesh";
 import Gateax from "./Components/Gateax";
 import Search from "./Components/Search";
 import User from "./Components/User";
-import Cart from "./Components/Cart";
+import CartPage from "./Components/CartPage";
+import Register from "./Components/Register";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -44,8 +45,12 @@ const router = createBrowserRouter([
     element: <User />
   },
   {
-    path: "Cart",
-    element: <Cart />
+    path: "cart",
+    element: <CartPage />
+  },
+  {
+    path: "register",
+    element: <Register />
   },
 
 ]);

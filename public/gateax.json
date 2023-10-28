@@ -1,0 +1,128 @@
+[
+    
+    {
+        "id": 1,
+        "name": "اكلير-شوكلت",
+        "image": "images/products/gateax/اكلير-شوكلت.png",
+        "price": "50"
+    },
+    {
+        "id":2 ,
+        "name": "ايس-كريم-كساتا",
+        "image": "images/products/gateax/ايس-كريم-كساتا.png",
+        "price": "20"
+    },
+    {
+        "id": 3,
+        "name": "تشيز-كيك-اوريو",
+        "image": "images/products/gateax/تشيز-كيك-اوريو.png",
+        "price": "40"
+    },
+    {
+        "id": 4,
+        "name": "جاتو-بلاك-فورست",
+        "image": "images/products/gateax/جاتو-بلاك-فورست.png",
+        "price": "20"
+    },
+    {
+        "id":5 ,
+        "name": "جاتو-ميلفيه-شوكلت",
+        "image": "images/products/gateax/جاتو-ميلفيه-شوكلت.png",
+        "price": "30"
+    },
+    {
+        "id": 6,
+        "name": "جاتو-ميلفيه-مربي",
+        "image": "images/products/gateax/جاتو-ميلفيه-مربي.png",
+        "price": "30"
+    },
+    {
+        "id": 7,
+        "name": "سويسرول-شوكلت",
+        "image": "images/products/gateax/سويسرول-شوكلت.png",
+        "price": "10"
+    },
+    {
+        "id": 8,
+        "name": "سويسرول-فانيليا",
+        "image": "images/products/gateax/سويسرول-فانيليا.png",
+        "price": "50"
+    },
+    {
+        "id": 9,
+        "name": "فادج",
+        "image": "images/products/gateax/فادج.png",
+        "price": "40"
+    },
+    {
+        "id": 10,
+        "name": "كب-كيك-سنيكرز",
+        "image": "images/products/gateax/كب-كيك-سنيكرز.png",
+        "price": "30"
+    },
+    {
+        "id": 11,
+        "name": "كونو-كيت-كات",
+        "image": "images/products/gateax/كونو-كيت-كات.png",
+        "price": "20"
+    },
+    {
+        "id": 12,
+        "name": "موس-شوكلت",
+        "image": "images/products/gateax/موس-شوكلت.png",
+        "price": "10"
+    },{
+        "id": 13,
+        "name": "cupcake",
+        "image": "images/products/gateax/gateax-1.jpeg",
+        "price": "20"
+    },
+    {
+        "id": 14,
+        "name": "gateax",
+        "image": "images/products/gateax/gateax-2.jpeg",
+        "price": "50"
+    },
+    {
+        "id":15 ,
+        "name": "swiss roll",
+        "image": "images/products/gateax/gateax-3.jpeg",
+        "price": "30"
+    },
+    {
+        "id": 16,
+        "name": "pie",
+        "image": "images/products/gateax/gateax-4.jpeg",
+        "price": "40"
+    },
+    {
+        "id": 17,
+        "name": "cake",
+        "image": "images/products/gateax/gateax-5.jpeg",
+        "price": "30"
+    },
+    {
+        "id": 18,
+        "name": "fadje cake",
+        "image": "images/products/gateax/gateax-6.jpeg",
+        "price": "40"
+    },
+    {
+        "id":19 ,
+        "name": "mini tart",
+        "image": "images/products/gateax/gateax-7.jpeg",
+        "price": ""
+    },
+    {
+        "id": 20,
+        "name": "tart",
+        "image": "images/products/gateax/gateax-8.jpeg",
+        "price": "30"
+    },
+    {
+        "id": 21,
+        "name": "pie",
+        "image": "images/products/gateax/gateax-4.jpeg",
+        "price": "40"
+    }
+]

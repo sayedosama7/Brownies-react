@@ -1,0 +1,165 @@
+[
+    {
+        "id": 1,
+        "name": "apple pie",
+        "image": "images/products/bakery/bakery-1.jpeg",
+        "price": "10ج.م"
+    },
+    {
+        "id": 2,
+        "name": "danash",
+        "image": "images/products/bakery/bakery-2.jpeg",
+        "price": "35ج.م"
+    },
+    {
+        "id": 3,
+        "name": "mini cake",
+        "image": "images/products/bakery/bakery-17.jpeg",
+        "price": "30ج.م"
+    },
+    {
+        "id": 4,
+        "name": "creaze pie",
+        "image": "images/products/bakery/bakery-4.jpeg",
+        "price": "20ج.م"
+    },
+    {
+        "id": 5,
+        "name": "cookies",
+        "image": "images/products/bakery/bakery-20.jpeg",
+        "price": "15ج.م"
+    },
+    {
+        "id": 6,
+        "name": "fruit pie",
+        "image": "images/products/bakery/bakery-6.jpeg",
+        "price": "45ج.م"
+    },
+    {
+        "id": 7,
+        "name": "croaison",
+        "image": "images/products/bakery/bakery-7.jpeg",
+        "price": "30ج.م"
+    },
+    {
+        "id": 8,
+        "name": "crepe",
+        "image": "images/products/bakery/bakery-8.jpeg",
+        "price": "100ج.م"
+    },
+    {
+        "id": 9,
+        "name": "bread",
+        "image": "images/products/bakery/bakery-9.jpeg",
+        "price": "10ج.م"
+    },
+    {
+        "id": 10,
+        "name": "bread",
+        "image": "images/products/bakery/bakery-10.png",
+        "price": "65ج.م"
+    },
+    {
+        "id": 11,
+        "name": "bread",
+        "image": "images/products/bakery/bakery-11.jpeg",
+        "price": "44ج.م"
+    },
+    {
+        "id": 12,
+        "name": "danash",
+        "image": "images/products/bakery/bakery-12.jpeg",
+        "price": "35ج.م"
+    },
+    {
+        "id": 13,
+        "name": "danash",
+        "image": "images/products/bakery/bakery-13.jpeg",
+        "price": "45ج.م"
+    },
+    {
+        "id": 14,
+        "name": "bread",
+        "image": "images/products/bakery/bakery-14.jpeg",
+        "price": "70ج.م"
+    },
+    {
+        "id": 15,
+        "name": "fruit pie",
+        "image": "images/products/bakery/bakery-6.jpeg",
+        "price": "45ج.م"
+    },
+
+    {
+        "id": 16,
+        "name": "mafine",
+        "image": "images/products/bakery/bakery-18.jpeg",
+        "price": "20ج.م"
+    },
+    {
+        "id": 17,
+        "name": "sable",
+        "image": "images/products/bakery/bakery-19.png",
+        "price": "19ج.م"
+    },
+    {
+        "id": 18,
+        "name": "cookies",
+        "image": "images/products/bakery/bakery-20.jpeg",
+        "price": "15ج.م"
+    },
+    {
+        "id": 19,
+        "name": "دونتس ",
+        "image": "images/products/bakery/دونتس.png",
+        "price": "30ج.م"
+    },
+    {
+        "id": 20,
+        "name": "كيك",
+        "image": "images/products/bakery/كيك.png",
+        "price": "80ج.م"
+    },
+    {
+        "id": 21,
+        "name": "بقسماط",
+        "image": "images/products/bakery/ساندوتش-جبنه-بيضاء-زيتون.png",
+        "price": "15ج.م"
+    },
+    {
+        "id": 22,
+        "name": "بيتزا ايطالي",
+        "image": "images/products/bakery/بيتزا-ايطالي.png",
+        "price": "15ج.م"
+    },
+    {
+        "id": 23,
+        "name": "بغاشة",
+        "image": "images/products/bakery/بغاشة.png",
+        "price": "15ج.م"
+    },
+    {
+        "id": 24,
+        "name": "باتيه",
+        "image": "images/products/bakery/باتيه.png",
+        "price": "15ج.م"
+    },
+    {
+        "id": 25,
+        "name": "باتون ساليه",
+        "image": "images/products/bakery/باتون-سالية-2.png",
+        "price": "15ج.م"
+    },
+    {
+        "id": 26,
+        "name": "دونتس ",
+        "image": "images/products/bakery/دونتس.png",
+        "price": "30ج.م"
+    },
+    {
+        "id": 27,
+        "name": "كيك",
+        "image": "images/products/bakery/كيك.png",
+        "price": "80ج.م"
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "name": "مشمش",
+        "image": "images/products/yamesh/مشمش.png",
+        "price": "100 ج.م"
+    },
+    {
+        "id": 2,
+        "name": "بندق مقشر",
+        "image": "images/products/yamesh/yamesh-2.jpg",
+        "price": "180 ج.م"
+    },
+    {
+        "id": 3,
+        "name": "لوز",
+        "image": "images/products/yamesh/لوز.png",
+        "price": "60 ج.م"
+    },
+    {
+        "id": 4,
+        "name": "عين جمل",
+        "image": "images/products/yamesh/yamesh-4.jpg",
+        "price": "120 ج.م"
+    },
+    {
+        "id": 5,
+        "name": "قراصيا",
+        "image": "images/products/yamesh/قراصيا.png",
+        "price": "100 ج.م"
+    },
+    {
+        "id": 6,
+        "name": "بندق",
+        "image": "images/products/yamesh/yamesh-3.jpg",
+        "price": "150 ج.م"
+    },
+    {
+        "id": 7,
+        "name": "بندق محمص",
+        "image": "images/products/yamesh/بندق-محمص.png",
+        "price": "210 ج.م"
+    },
+    {
+        "id": 8,
+        "name": "بندق مقشر",
+        "image": "images/products/yamesh/بندق-مقشر.png",
+        "price": "190 ج.م"
+    },
+    {
+        "id": 9,
+        "name": "تين مجفف",
+        "image": "images/products/yamesh/تين-مجفف.png",
+        "price": "90 ج.م"
+    },
+    {
+        "id": 10,
+        "name": "زبيب",
+        "image": "images/products/yamesh/زبيب.png",
+        "price": "140 ج.م"
+    },
+    {
+        "id": 11,
+        "name": "سوداني مملح",
+        "image": "images/products/yamesh/سوداني-مملح.png",
+        "price": "150 ج.م"
+    },
+    {
+        "id": 12,
+        "name": "شيكولاته سوداني",
+        "image": "images/products/yamesh/شيكولاته-سوداني.png",
+        "price": "200 ج.م"
+    },
+    {
+        "id": 13,
+        "name": "فسدق محمص",
+        "image": "images/products/yamesh/فسدق-محمص.png",
+        "price": "100 ج.م"
+    },
+    {
+        "id": 14,
+        "name": "لوز",
+        "image": "images/products/yamesh/لوز.png",
+        "price": "60 ج.م"
+    },
+    {
+        "id": 15,
+        "name": "قراصيا",
+        "image": "images/products/yamesh/قراصيا.png",
+        "price": "100 ج.م"
+    },
+    {
+        "id": 16,
+        "name": "قمر الدين الاحلام",
+        "image": "images/products/yamesh/قمر-الدين-الاحلام.png",
+        "price": "70 ج.م"
+    },
+    {
+        "id": 17,
+        "name": "قمر الدين الزهره",
+        "image": "images/products/yamesh/قمر-الدين-الزهره.png",
+        "price": "90 ج.م"
+    },
+    {
+        "id": 18,
+        "name": "قمر الدين رولز",
+        "image": "images/products/yamesh/قمر-الدين-رولز.png",
+        "price": "80 ج.م"
+    },
+    {
+        "id": 19,
+        "name": "مكسرات",
+        "image": "images/products/yamesh/yamesh-5.jpg",
+        "price": "50 ج.م"
+    },
+    {
+        "id": 20,
+        "name": "مشمش",
+        "image": "images/products/yamesh/مشمش.png",
+        "price": "100 ج.م"
+    },
+    {
+        "id": 21,
+        "name": "عين جمل",
+        "image": "images/products/yamesh/yamesh-1.jpeg",
+        "price": "150 ج.م"
+    }
+]

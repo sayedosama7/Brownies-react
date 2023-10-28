@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "name": "جلاش مكسرات",
+        "image": "images/products/oriental/oriental-1.jpg",
+        "price": "20 ج.م"
+    },
+    {
+        "id": 2,
+        "name": "كنافة فسدق بورمة",
+        "image": "images/products/oriental/oriental-2.jpg",
+        "price": "30 ج.م"
+    },
+    {
+        "id": 3,
+        "name": "جلاش اساور",
+        "image": "images/products/oriental/oriental-3.jpg",
+        "price": "50 ج.م"
+    },
+    {
+        "id": 4,
+        "name": "كنافة عثمانلي فسدق",
+        "image": "images/products/oriental/oriental-4.jpg",
+        "price": "ج.م"
+    },
+    {
+        "id": 5,
+        "name": "رموش الست",
+        "image": "images/products/oriental/oriental-5.jpg",
+        "price": "30 ج.م"
+    },
+    {
+        "id": 6,
+        "name": "زلابيا",
+        "image": "images/products/oriental/oriental-6.jpg",
+        "price": "25 ج.م"
+    },
+    {
+        "id": 7,
+        "name": "جلاش",
+        "image": "images/products/oriental/oriental-7.jpg",
+        "price": "30 ج.م"
+    },
+    {
+        "id": 8,
+        "name": "كنافة اساور",
+        "image": "images/products/oriental/oriental-8.jpg",
+        "price": "55 ج.م"
+    },
+    {
+        "id": 9,
+        "name": "جلاش بقلاوه",
+        "image": "images/products/oriental/oriental-9.jpg",
+        "price": "90 ج.م"
+    },
+    {
+        "id": 10,
+        "name": "بسبوسه مكسرات",
+        "image": "images/products/oriental/oriental-10.jpg",
+        "price": "110 ج.م"
+    },
+    {
+        "id": 11,
+        "name": "شرقي",
+        "image": "images/products/oriental/oriental-11.jpg",
+        "price": "70 ج.م"
+    },
+    {
+        "id": 12,
+        "name": "كنافه",
+        "image": "images/products/oriental/oriental-12.jpg",
+        "price": "45 ج.م"
+    },
+    {
+        "id": 13,
+        "name": "بسيمة",
+        "image": "images/products/oriental/oriental-13.jpg",
+        "price": "15 ج.م"
+    },
+    {
+        "id": 14,
+        "name": "جلاش ",
+        "image": "images/products/oriental/oriental-14.jpg",
+        "price": "30 ج.م"
+    },
+    {
+        "id": 15,
+        "name": "جلاش",
+        "image": "images/products/oriental/oriental-15.jpg",
+        "price": "20 ج.م"
+    },
+    {
+        "id": 16,
+        "name": "كنافة فسدق بورمة",
+        "image": "images/products/oriental/oriental-16.jpg",
+        "price": "10 ج.م"
+    },
+    {
+        "id": 17,
+        "name": "كنافة قشطة",
+        "image": "images/products/oriental/oriental-17.jpg",
+        "price": "10 ج.م"
+    },
+    {
+        "id": 18,
+        "name": "كنافة نابلسية",
+        "image": "images/products/oriental/oriental-18.jpg",
+        "price": "50 ج.م"
+    },
+    {
+        "id": 19,
+        "name": "شرقي",
+        "image": "images/products/oriental/oriental-19.jpg",
+        "price": "20 ج.م"
+    },
+    {
+        "id": 20,
+        "name": "كنافة اساور",
+        "image": "images/products/oriental/oriental-20.jpg",
+        "price": "25 ج.م"
+    },
+    {
+        "id": 21,
+        "name": "جلاش اساور",
+        "image": "images/products/oriental/oriental-3.jpg",
+        "price": "50 ج.م"
+    }
+]
