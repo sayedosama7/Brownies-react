@@ -8,6 +8,7 @@ import MostSelling from './MostSelling'
 import Footer from './Footer'
 import ScrollToTop from 'react-scroll-to-top'
 import { CartProvider } from 'react-use-cart'
+import Baner from './Baner'
 
 export class HomePage extends Component {
   render() {
@@ -19,6 +20,7 @@ export class HomePage extends Component {
         <Special />
         <Menu />
         <MostSelling />
+        <Baner/>
         <Footer />
         <ScrollToTop
           viewBox="0 0 256 256"

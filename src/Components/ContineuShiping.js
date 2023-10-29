@@ -10,10 +10,10 @@ const ContineuShiping = () => {
     return (
         <CartProvider>
             <NavBar />
-            <div className='pt-5 register'>
+            <div className='pt-5 form-input'>
                 <Container className='pt-4 continue'>
                     <Row>
-                        <h2 className='title-center'>تاكيد اتمام عملية الشراء</h2>
+                        <h2 className='title-center mb-3'>تاكيد اتمام عملية الشراء</h2>
                         <Col md="12">
                             <Form className='w-50 m-auto'>
 

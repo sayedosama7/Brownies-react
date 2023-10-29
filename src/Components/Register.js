@@ -10,9 +10,9 @@ function Register() {
     <CartProvider>
       <NavBar />
       <div className='pt-5'></div>
-      <Container className='pt-5 register'>
+      <Container className='pt-4 form-input'>
         <Row>
-          <h2 className='title-center'>التسجيل</h2>
+          <h2 className='title-center mb-2'>التسجيل</h2>
           <Col md="12">
             <Form className='w-50 m-auto'>
 

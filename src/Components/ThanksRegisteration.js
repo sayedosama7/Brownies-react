@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'reactstrap'
 import { NavLink } from 'react-router-dom'
 import { CartProvider } from 'react-use-cart'
 
-const Thanks = () => {
+const ThanksRegisteration = () => {
     return (
         <CartProvider>
             <NavBar />
@@ -14,9 +14,8 @@ const Thanks = () => {
                 <Row>
                     <Col>
                         <h2 className='title-center mb-2'>
-                            لقد اتمت عمليه الشراء بنجاح
+                           لقد تمت عمليه التسجيل بنجاح
                         </h2>
-                        <h5 className='text-center text-muted'>رقم 51535000</h5>
                         <NavLink className='btn btn-danger m-auto d-block main w-25 mt-5 mt-2' to='/'>القائمة الرئيسية</NavLink>
 
                     </Col>
@@ -27,4 +26,4 @@ const Thanks = () => {
     )
 }
 
-export default Thanks
+export default ThanksRegisteration

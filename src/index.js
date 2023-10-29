@@ -14,6 +14,8 @@ import Register from "./Components/Register";
 import Menu2 from "./Components/Menu2";
 import ContineuShiping from "./Components/ContineuShiping";
 import Thanks from "./Components/Thanks";
+import ThanksRegisteration from "./Components/ThanksRegisteration";
+import NewAccount from "./Components/NewAccount";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -66,6 +68,14 @@ const router = createBrowserRouter([
   {
     path: "thanks",
     element: <Thanks />
+  },
+  {
+    path: "ths-reg",
+    element: <ThanksRegisteration />
+  },
+  {
+    path: "new-acc",
+    element: <NewAccount />
   },
 
 ]);
