@@ -14,22 +14,22 @@ export class Footer extends Component {
                         </div>
 
                         <div>
-                            <a to="" class="me-4">
+                            <a href="https://web.facebook.com/profile.php?id=100074154131174" target='_blank' class="me-4" rel="noreferrer">
                                 <i class="fab fa-facebook-f text-brown"></i>
                             </a>
-                            <a to="" class="me-4">
+                            <a href="https://web.facebook.com/profile.php?id=100074154131174" target='_blank' rel="noreferrer" class="me-4">
                                 <i class="fab fa-twitter text-brown"></i>
                             </a>
-                            <a to="" class="me-4">
+                            <a href="https://web.facebook.com/profile.php?id=100074154131174" target='_blank' rel="noreferrer" class="me-4">
                                 <i class="fab fa-google text-brown"></i>
                             </a>
-                            <a to="" class="me-4">
+                            <a href="https://web.facebook.com/profile.php?id=100074154131174" target='_blank' rel="noreferrer" class="me-4">
                                 <i class="fab fa-instagram text-brown"></i>
                             </a>
-                            <a to="" class="me-4">
+                            <a href="https://www.linkedin.com/feed/?trk=hb_signin" target='_blank' rel="noreferrer" class="me-4">
                                 <i class="fab fa-linkedin text-brown"></i>
                             </a>
-                            <a to="" class="me-4">
+                            <a href="https://github.com/sayedosama7" target='_blank' rel="noreferrer" class="me-4">
                                 <i class="fab fa-github text-brown"></i>
                             </a>
                         </div>
@@ -89,6 +89,7 @@ export class Footer extends Component {
                     <div class="text-center pb-4">
 
                         <Link class="text-brown fw-bold" to="/">حلواني براونيز</Link>
+                        <h5 className='text-brown mt-2'>by sayed osama</h5>
                     </div>
                 </footer>
             </div>

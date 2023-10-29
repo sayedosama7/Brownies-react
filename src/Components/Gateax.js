@@ -16,15 +16,15 @@ function Page() {
     },
     {
       "id": 2,
-      "name": "ايس-كريم-كساتا",
-      "image": "images/products/gateax/ايس-كريم-كساتا.png",
-      "price": "20"
+      "name": "فادج",
+      "image": "images/products/gateax/فادج.png",
+      "price": "40"
     },
     {
       "id": 3,
-      "name": "تشيز-كيك-اوريو",
-      "image": "images/products/gateax/تشيز-كيك-اوريو.png",
-      "price": "40"
+      "name": "كب-كيك-سنيكرز",
+      "image": "images/products/gateax/كب-كيك-سنيكرز.png",
+      "price": "30"
     },
     {
       "id": 4,

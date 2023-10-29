@@ -10,7 +10,7 @@ function Page() {
   const products = [
     {
       "id": 1,
-      "name": "مشمش",
+      "name": "مشمشية",
       "image": "images/products/yamesh/مشمش.png",
       "price": "100 "
     },
@@ -124,7 +124,7 @@ function Page() {
     },
     {
       "id": 20,
-      "name": "مشمش",
+      "name": "مشمشية",
       "image": "images/products/yamesh/مشمش.png",
       "price": "100 "
     },

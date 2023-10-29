@@ -50,7 +50,7 @@ function Page() {
                                     </CardSubtitle>
                                     <hr />
 
-                                    <button onClick={() => addItem(item)} className='btn btn-danger btn-block'>شراء</button>
+                                    <button onClick={() => addItem(item)} className='btn btn-danger btn-block m-auto'>شراء</button>
 
                                 </CardBody>
                             </Card>

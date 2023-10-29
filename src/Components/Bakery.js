@@ -125,13 +125,13 @@ function Page() {
     },
     {
       "id": 20,
-      "name": "كيك",
-      "image": "images/products/bakery/كيك.png",
+      "name": "كيك شيكولاتة",
+      "image": "images/products/bakery/كيك-شيكولاتة.png",
       "price": "80"
     },
     {
       "id": 21,
-      "name": "بقسماط",
+      "name": "ساندوتش",
       "image": "images/products/bakery/ساندوتش-جبنه-بيضاء-زيتون.png",
       "price": "15"
     },
@@ -161,13 +161,13 @@ function Page() {
     },
     {
       "id": 26,
-      "name": "دونتس ",
-      "image": "images/products/bakery/دونتس.png",
+      "name": "باتون سالية ",
+      "image": "images/products/bakery/باتون-سالية-3.png",
       "price": "30"
     },
     {
       "id": 27,
-      "name": "كيك",
+      "name": "كيك فانيليا",
       "image": "images/products/bakery/كيك.png",
       "price": "80"
     }
