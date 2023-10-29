@@ -50,6 +50,14 @@ a {
     text-decoration: none;
 }
 
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fbc8c8;
+}
+
 :root {
     --main-color: #663a2a;
     --bg-color: #fbc8c8;
