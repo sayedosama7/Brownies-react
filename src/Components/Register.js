@@ -1,57 +1,155 @@
-import React from 'react'
+// import React from 'react'
+// import NavBar from './NavBar'
+// import Footer from './Footer'
+// import { CartProvider } from 'react-use-cart'
+// import { Col, Container, FormGroup, Input, Label, Row } from 'reactstrap'
+// import { Form, Link } from 'react-router-dom'
+
+// function Register() {
+//   return (
+//     <CartProvider>
+//       <NavBar />
+//       <div className='pt-5'></div>
+//       <Container className='pt-4 form-input'>
+//         <Row>
+//           <h2 className='title-center mb-2'>التسجيل</h2>
+//           <Col md="12">
+//             <Form className='w-50 m-auto'>
+
+//               <FormGroup>
+//                 <Label className='text-brown'>الاسم </Label>
+//                 <Input id="exampleName" name="name" placeholder="" type="text" required />
+//               </FormGroup>
+
+//               <FormGroup>
+//                 <Label className='text-brown'>الايميل </Label>
+//                 <Input id="exampleEmail" name="email" placeholder="" type="email" required />
+//               </FormGroup>
+
+//               <FormGroup>
+//                 <Label className='text-brown' for="examplePassword">الرقم السري</Label>
+//                 <Input id="examplePassword" name="password" placeholder="" type="password" required />
+//               </FormGroup>
+
+//               <FormGroup>
+//                 <Label className='text-brown' for="examplePassword">تأكيد الرقم السري</Label>
+//                 <Input id="examplePassword" name="password" placeholder="" type="password" required />
+//               </FormGroup>
+//               <Link to="/continue-shiping" className='btn btn-danger m-auto d-block w-25 mt-4'>
+//                 تسجيل
+//               </Link>
+//             </Form>
+//           </Col>
+//         </Row>
+//       </Container>
+
+//       <Footer />
+//     </CartProvider>
+//   )
+// }
+
+// export default Register
+
 import NavBar from './NavBar'
 import Footer from './Footer'
 import { CartProvider } from 'react-use-cart'
 import { Col, Container, FormGroup, Input, Label, Row } from 'reactstrap'
-import { Form, Link } from 'react-router-dom'
+import { Form } from 'react-router-dom'
+import React, { useState } from 'react';
 
-function Register() {
-  return (
-    <CartProvider>
-      <NavBar />
-      <div className='pt-5'></div>
-      <Container className='pt-4 form-input'>
+const Register = () => {
+
+  const [formData, setFormData] = useState({
+    username: '',
+    email: '',
+    password: '',
+    confirmPassword: ''
+  })
+
+  const [errors, setErrors] = useState({})
+
+  const handleChange = (e) => {
+    const {name, value} = e.target;
+    setFormData({
+        ...formData, [name] : value
+    })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    const validationErrors = {}
+    if(!formData.username.trim()) {
+        validationErrors.username = "username is required"
+    }
+
+    if(!formData.email.trim()) {
+        validationErrors.email = "email is required"
+    } else if(!/\S+@\S+\.\S+/.test(formData.email)){
+        validationErrors.email = "email is not valid"
+    }
+
+    if(!formData.password.trim()) {
+        validationErrors.password = "password is required"
+    } else if(formData.password.length < 6){
+        validationErrors.password = "password should be at least 6 char"
+    }
+
+    if(formData.confirmPassword !== formData.password) {
+        validationErrors.confirmPassword = "password not matched"
+    }
+
+    setErrors(validationErrors)
+
+    if(Object.keys(validationErrors).length === 0) {
+        alert("Form Submitted successfully")
+    }
+
+  }
+
+return (
+        <CartProvider>
+        <NavBar />
+        <div className='pt-5'></div>
+        <Container className='pt-4 form-input'>
         <Row>
-          <h2 className='title-center mb-2'>التسجيل</h2>
-          <Col md="12">
-            <Form className='w-50 m-auto'>
+        <h2 className='title-center mb-2'>التسجيل</h2>
+        <Col md="12">
+        <Form onSubmit={handleSubmit} className='w-50 m-auto'>
+        <FormGroup>
+        <Label className='text-brown'>الاسم </Label>
+        <Input type="text"name="username"placeholder='' autoComplete='off' onChange={handleChange}/>
+        {errors.username && <span className='error'>{errors.username}</span>}  
+        </FormGroup>
 
-              <FormGroup>
-                <Label className='text-brown' for="exampleEmail">الاسم </Label>
-                <Input id="exampleName" name="name" placeholder="" type="text" required />
-              </FormGroup>
+        <FormGroup>
+        <Label className='text-brown'>الايميل </Label>
+        <Input type="email"name="email"placeholder='' autoComplete='off' onChange={handleChange}/>
+        {errors.email && <span className='error'>{errors.email}</span>}  
+        </FormGroup>
 
-              <FormGroup>
-                <Label className='text-brown' for="exampleEmail">الايميل </Label>
-                <Input id="exampleEmail" name="email" placeholder="" type="email" required />
-              </FormGroup>
+        <FormGroup>
+        <Label className='text-brown'>الرقم السري </Label>
+        <Input type="password" name="password" placeholder='' autoComplete='off' onChange={handleChange}  />
+        {errors.password && <span className='error'>{errors.password}</span>}  
+        </FormGroup>
 
-              <FormGroup>
-                <Label className='text-brown' for="examplePassword">الرقم السري</Label>
-                <Input id="examplePassword" name="password" placeholder="" type="password" required />
-              </FormGroup>
+        <FormGroup>
+        <Label className='text-brown'>تأكيد الرقم السري </Label>
+        <Input  type="password" name="confirmPassword" placeholder='' onChange={handleChange}   />
+        {errors.confirmPassword && <span className='error'>{errors.confirmPassword}</span>} 
+        </FormGroup>
 
-              <FormGroup>
-                <Label className='text-brown' for="examplePassword">تأكيد الرقم السري</Label>
-                <Input id="examplePassword" name="password" placeholder="" type="password" required />
-              </FormGroup>
-              <Link to="/continue-shiping" className='btn btn-danger m-auto d-block w-25 mt-4'>
-                تسجيل
-              </Link>
-            </Form>
-          </Col>
+        <button  className='reg-btn m-auto d-block w-25 mt-4' type="submit">تسجيل</button>
+        </Form>
+        </Col>
         </Row>
-      </Container>
+        </Container>
+        <Footer/>
+        </CartProvider>
+);
+};
 
-      <Footer />
-    </CartProvider>
-  )
-}
-
-export default Register
-
-
-
+export default Register;
 
 
 // import { useState } from 'react';
@@ -329,3 +427,6 @@ export default Register
 // };
 
 // export default Register;
+
+
+
