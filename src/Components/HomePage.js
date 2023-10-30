@@ -29,6 +29,7 @@ export class HomePage extends Component {
           smooth
           color='#663a2a'
           style={{ backgroundColor: '#fbc8c8', width: '60px' }}
+          className='animate__animated animate__flash animate__infinite	infinite animate__slower'
         />
 
 

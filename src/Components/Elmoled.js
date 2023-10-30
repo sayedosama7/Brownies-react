@@ -145,8 +145,8 @@ function Page() {
           {products.map((item) => (
             <Col md='4' className='text-center mb-4'>
 
-              <Card className='box'>
-                <div className='images'>
+              <Card className='box wow fadeInUp' data-wow-delay=".2s">
+                <div className='images wow fadeInUp' data-wow-delay=".4s">
                   <img alt="Sample" src={item.image} />
                 </div>
                 <CardBody>
@@ -183,6 +183,7 @@ function Elmoled() {
         smooth
         color='#663a2a'
         style={{ backgroundColor: '#fbc8c8', width: '60px' }}
+        className='animate__animated animate__flash animate__infinite	infinite animate__slower'
       />
     </CartProvider>
   );

@@ -150,8 +150,8 @@ function Page() {
 
             <Col md='4' className='text-center mb-4'>
 
-              <Card className='box'>
-                <div className='images'>
+              <Card className='box wow fadeInUp' data-wow-delay=".2s">
+                <div className='images wow fadeInUp' data-wow-delay=".4s">
                   <img alt="Sample" className='bakery-img' src={item.image} />
                 </div>
                 <CardBody>
@@ -183,13 +183,15 @@ function Yamesh() {
       <NavBar />
       <Page />
       <Footer />
-      <ScrollToTop
+      <ScrollToTop 
         viewBox="0 0 24 24"
         svgPath="M12,21 C16,19.6666667 18,17.4411765 18,14.3235294 L18,12 L18,12 L6,12 L6,14.3235294 L6,14.3235294 C6,17.4411765 8,19.6666667 12,21 Z M7.5,7 L10.2747211,6.20722253 C10.7040227,6.08456495 11,5.69217895 11,5.24569859 L11,4 L13,4 L12.5575036,4.88499271 C12.3105144,5.3789712 12.5107387,5.97964425 13.0047172,6.22663349 C13.0699767,6.25926325 13.1386113,6.28465283 13.2093952,6.3023488 L16,7 C18.1421954,7.53554885 19.4700868,9.65673819 19.0450148,11.7991358 L19,12 L5,12 L4.882843,11.531372 C4.39057566,9.56230266 5.54842347,7.55759329 7.5,7 Z
         "
         smooth
         color='#663a2a'
-        style={{ backgroundColor: '#fbc8c8', width: '60px' }} />
+        style={{ backgroundColor: '#fbc8c8', width: '60px' }} 
+        className='animate__animated animate__flash animate__infinite	infinite animate__slower'
+        />
     </CartProvider>
   )
 }

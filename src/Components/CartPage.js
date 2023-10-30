@@ -1,5 +1,3 @@
-
-
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap';
 import { CartProvider, useCart } from 'react-use-cart';
@@ -39,29 +37,12 @@ function Cart() {
                 {items.map((item) => (
                   <tr key={item.id}>
                     <td>
-                      <div className='d-flex table-btn'>
-                        <button
-                          className="btn btn-light cart-btn"
-                          onClick={() => removeItem(item.id)}
-                        >
-                          &#10006;
-                        </button>
-                        <button
-                          className="btn btn-light mx-2 cart-btn"
-                          onClick={() =>
-                            updateItemQuantity(item.id, item.quantity + 1)
-                          }
-                        >
-                          +
-                        </button>
-                        <button
-                          className="btn btn-light cart-btn"
-                          onClick={() =>
-                            updateItemQuantity(item.id, item.quantity - 1)
-                          }
-                        >
-                          -
-                        </button>
+                      <div className='d-flex justify-content-center table-btn'>
+                        <button className="btn btn-light cart-btn" onClick={() => updateItemQuantity(item.id, item.quantity - 1)}>-</button>
+
+                        <button className="btn btn-light mx-2 cart-btn" onClick={() => updateItemQuantity(item.id, item.quantity + 1)}>+</button>
+
+                        <button className="btn btn-light cart-btn" onClick={() => removeItem(item.id)}>&#10006;</button>
                       </div>
                     </td>
 
@@ -74,7 +55,7 @@ function Cart() {
                 ))}
               </tbody>
             </table>
-            <h3 className='mt-4 say'> السعر الكلي {cartTotal} ج.م.</h3>
+            <h3 className='mt-4'> السعر الكلي {cartTotal} ج.م.</h3>
             <div className='mt-4'>
               <NavLink className='btn btn-danger  mb-2' to='/register'>متابعة عملية الشراء</NavLink>
             </div>

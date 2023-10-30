@@ -38,7 +38,7 @@ function Page() {
                 <Row>
                     <h2 className='title-center'>الأكثر مبيعا</h2>
                     {products.map((item) => (
-                        <Col md='3'>
+                        <Col md='3' className=' wow fadeInUp' data-wow-delay=".4s">
                             <Card>
                                 <img class="img-fluid" alt="Sample" src={item.image} />
                                 <CardBody>
@@ -58,8 +58,17 @@ function Page() {
                     ))}
                 </Row>
             </Container>
+            <div className='text-center mt-4 text-brown d-flex justify-content-center'>
+                <div className=' animate__animated animate__flash  animate__infinite infinite'>
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
 
-            <NavLink to='/menu' className=' d-block text-center mt-4 text-brown'>للمزيد اضغط هنا</NavLink>
+                <NavLink to='/menu' className='text-brown mx-2'>للمزيد اضغط هنا</NavLink>
+                <div className=' animate__animated animate__flash  animate__infinite infinite'>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+
         </div>
     );
 }

@@ -148,10 +148,10 @@ function Page() {
 
           {products.map((item) => (
 
-            <Col md='4' className='text-center mb-4'>
+            <Col md='4' className='text-center mb-4 wow fadeInUp' data-wow-delay=".2s">
 
               <Card className='box'>
-                <div className='images'>
+                <div className='images wow fadeInUp' data-wow-delay=".4s">
                   <img alt="Sample" src={item.image} />
                 </div>
                 <CardBody>
@@ -186,7 +186,9 @@ function Oriental() {
       <ScrollToTop
         smooth
         color='#663a2a'
-        style={{ backgroundColor: '#fbc8c8', width: '60px' }} />
+        style={{ backgroundColor: '#fbc8c8', width: '60px' }} 
+        className='animate__animated animate__flash animate__infinite	infinite animate__slower'
+        />
     </CartProvider>
   )
 }
